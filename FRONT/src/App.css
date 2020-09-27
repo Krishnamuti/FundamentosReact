@@ -1,0 +1,5 @@
+.App .Cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /*coloca os card um em baixo do outro conforme diminui a tela*/
+}
