@@ -1,8 +1,9 @@
 import './App.css';
 import React from 'react';
 
-import UsuarioInfo from './components/condicional/UsuarioInfo'
-import ParOuImpar from './components/condicional/ParOuImpar'
+import DiretaPai from './components/comunicacao/DiretaPai';
+import UsuarioInfo from './components/condicional/UsuarioInfo';
+import ParOuImpar from './components/condicional/ParOuImpar';
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ListaAlunos from './components/repeticao/ListaAlunos';
 import Familia from './components/basicos/Familia';
@@ -19,6 +20,10 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
+
+        <Card titulo="Comunicação Direta" color="#59323C">          
+          <DiretaPai></DiretaPai>
+        </Card>
 
         <Card titulo="Renderização Condicional" color="#982395">
           <ParOuImpar numero={21}></ParOuImpar>          
