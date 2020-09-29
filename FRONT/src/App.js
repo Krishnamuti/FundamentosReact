@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 
+import UsuarioInfo from './components/condicional/UsuarioInfo'
 import ParOuImpar from './components/condicional/ParOuImpar'
 import TabelaProdutos from './components/repeticao/TabelaProdutos';
 import ListaAlunos from './components/repeticao/ListaAlunos';
@@ -20,7 +21,8 @@ function App() {
       <div className="Cards">
 
         <Card titulo="Renderização Condicional" color="#982395">
-          <ParOuImpar numero={21}></ParOuImpar>
+          <ParOuImpar numero={21}></ParOuImpar>          
+          <UsuarioInfo usuario={{ nome: 'Kris'}}></UsuarioInfo>
         </Card>
 
         <Card titulo="Tabela de Produtos" color="#3A9AD9">
