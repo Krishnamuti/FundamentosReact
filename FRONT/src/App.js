@@ -1,6 +1,7 @@
 import './App.css';
 import React from 'react';
 
+import IndiretaPai from './components/comunicacao/IndiretaPai';
 import DiretaPai from './components/comunicacao/DiretaPai';
 import UsuarioInfo from './components/condicional/UsuarioInfo';
 import ParOuImpar from './components/condicional/ParOuImpar';
@@ -20,6 +21,10 @@ function App() {
       <h1>Fundamentos React</h1>
 
       <div className="Cards">
+
+        <Card titulo="Comunicação Indireta" color="#8BAD39">          
+          <IndiretaPai></IndiretaPai>
+        </Card>
 
         <Card titulo="Comunicação Direta" color="#59323C">          
           <DiretaPai></DiretaPai>
