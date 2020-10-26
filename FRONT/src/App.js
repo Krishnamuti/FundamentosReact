@@ -24,25 +24,25 @@ function App() {
 
       <div className="Cards">
 
-        <Card titulo="Contador" color="#424242">          
+        <Card titulo="Contador" color="#424242">
           <Contador numeroInicial={10}></Contador>
         </Card>
 
-        <Card titulo="Componente Controlado (INPUT)" color="#E45F56">          
+        <Card titulo="Componente Controlado (INPUT)" color="#E45F56">
           <Input></Input>
         </Card>
 
-        <Card titulo="Comunicação Indireta" color="#8BAD39">          
+        <Card titulo="Comunicação Indireta" color="#8BAD39">
           <IndiretaPai></IndiretaPai>
         </Card>
 
-        <Card titulo="Comunicação Direta" color="#59323C">          
+        <Card titulo="Comunicação Direta" color="#59323C">
           <DiretaPai></DiretaPai>
         </Card>
 
         <Card titulo="Renderização Condicional" color="#982395">
-          <ParOuImpar numero={21}></ParOuImpar>          
-          <UsuarioInfo usuario={{ nome: 'Kris'}}></UsuarioInfo>
+          <ParOuImpar numero={21}></ParOuImpar>
+          <UsuarioInfo usuario={{ nome: 'Kris' }}></UsuarioInfo>
         </Card>
 
         <Card titulo="Tabela de Produtos" color="#3A9AD9">
@@ -55,9 +55,9 @@ function App() {
 
         <Card titulo="Componente com Filhos" color="#00C8F8">
           <Familia sobrenome="Ferreira">
-            <FamiliaMembro nome="Pedro"/>
-            <FamiliaMembro nome="Ana"/>
-            <FamiliaMembro nome="Gustavo"/>            
+            <FamiliaMembro nome="Pedro" />
+            <FamiliaMembro nome="Ana" />
+            <FamiliaMembro nome="Gustavo" />
           </Familia>
         </Card>
 
@@ -65,7 +65,7 @@ function App() {
           <Aleatorio min={1} max={60}></Aleatorio>
         </Card>
 
-        <Card titulo="Com Parêmetro" color="#E94C6F">
+        <Card titulo="Com Parâmetro" color="#E94C6F">
           <ComParametro titulo="Segundo Componente" subtitulo="Muito bom!" />
         </Card>
 
